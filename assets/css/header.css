@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(127, 37, 182);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.header__img{
+    width: 25px;
+    height: 25px;
+    margin-right: 1.5rem;
+
+}
+
+.header__img:last-child{
+    margin-right: 0;
+}
+
+.header--conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__text{
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.header--conteiner__user{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(151, 67, 203);;
+}
